@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+#centro{
+    height: 90%;
+    height: 100%;
+    background:white;
+}
+
+@media screen and (min-widht:32px) and (max-widht:568px) {
+    #centro{width:100%;}
+}
+html,body{
+    height: 100%;
+}
+
+.parent{
+    display:flex;
+    flex-direction: column;
+}
+
+.sidebar{
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    background-color: rgb(162, 224, 218);
+    border-radius: 0%;
+}
+
+.sidebar-pos {
+    position: absolute;
+    top: 2%;
+    left:8%;
+    
+    
+
+}
+
+.img-sidebar img{
+    width: 110%;
+    border-radius: 30%;
+    border: 3px solid;
+    
+    
+
+}  
+
+.menu{
+    margin: 15% 0%;
+    text-align: center; 
+    position: relative;
+    left: 2%;
+
+}
+.menu a{
+    color: royalblue;
+    font-size: 120% ;
+    text-decoration:none;
+    display: block;
+    margin-bottom: 10%;
+    opacity: 0.7;
+    
+}
+
+.content{
+   position:absolute;
+    width: 400%;
+   height: 500%;
+   background-color:rgb(255, 255, 255);
+   left: 100%;
+   padding: 0 6%;
+
+}
+
+section.descricao{  
+    position: relative;
+    top: -23%;
+    transform: translateY(500%);
+
+    
+}
+
+section.descricao h2 {
+   font-family: cursive;
+    font-size: 260%;
+    color: chocolate;
+
+}
+
+section.descricao h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section.descricao h4 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.icons-social {
+    margin-top: 7%;
+}
+
+.cadastre-se {
+    position:relative;
+    width:50%;
+    height:30%;
+    left:100%;
+    top:-5.5%;
+    background-color:rgb(162, 224, 218);
+    border-radius: 2%;
+    
+
+}
+
+.cadastre-se h1 {
+    font-family: unset;
+    color: royalblue;
+    font-size: 190%;
+    text-decoration:none;
+    display: block;
+    opacity: 0.7;
+    text-align:start;
+    margin-left: 1%;
+    margin-top: 7%;
+}
+
+.cadastro {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+}
+
+.promocao {
+    position:absolute;
+    background-color:rgb(204, 248, 244);
+    top:9%;
+    left:0%;
+    width:100%;
+    height:7%;
+  
+}
+.promocao h1{
+    font-family: inherit;
+    font-size: 120%;
+
+}
+.promocao h2{
+    font-size: 90%;
+}
+ .promocao h3{
+     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 55%;
+ }
+.promocao h4 {
+    font-size: 120%;
+    font-style: initial;
+    color: rgb(117, 114, 114);
+    
+}
+.promocao h5 {
+    font-size: 100%;
+    font-family:'Times New Roman', Times, serif ;
+    font-style: initial;
+    height: 100%;
+    color:rgb(171, 168, 168);
+    
+}
+
+.promocao ol {
+    font-size: 100%;
+    font-style: initial;
+    color: rgb(117, 114, 114);
+    font-family: inherit;
+}
+.promocao ul {
+    font-size: 80%;
+    font-style: initial;
+    color: rgb(117, 114, 114);
+    
+}
+.comentario { 
+    font-size: 90%;
+    left:80%;
+    font-family: initial;
+    
+}
+
+.comentario h1 {
+    font-size: 135%;
+}
+
+.bootom {
+    background-color: darkred;
+     
+}
+.bootom h1{
+    position:absolute;
+    top:20%;
+    left:0%;
+    width:100%;
+    height:7%;
+}
+    
+
